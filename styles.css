@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  background-size: auto;
+  color: rgb(255, 255, 255);
+  padding: 25px;
+}
+
+header .area-logo {
+  display: flex;
+  justify-content: center;
+}
+
+header .area-logo .menu-desktop {
+  display: none;
+}
+
+header>div {
+  width: 33%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 97.5px;
+}
+
+nav {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background-color: #000;
+  font-size: 60px;
+}
+
+nav ul li {
+  list-style-type: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.items-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 40px;
+}
+
+.items-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  font-size: 40px;
+}
+
+.slide1 {
+  height: 342px;
+  overflow: hidden;
+}
+
+.home {
+  height: 100%;
+  position: relative;
+}
+
+.tarjeta img {
+  width: 100vw;
+  height: 100%;
+}
+
+.right-left1 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+.panel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 20px 20px;
+  padding: 20px;
+}
+
+.panel img {
+  max-width: 337.75px;
+  max-height: 337.75px;
+  filter: grayscale(100%);
+}
+
+.panel img:hover {
+  filter: grayscale(0%);
+}
+
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 30px;
+  padding: 5vw;
+}
+
+.shop-imagen {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  gap: 10px;
+}
+
+.shop-imagen img {
+  width: 337.75px;
+  height: 337.75px;
+}
+
+.more-shop {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.more-shop a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-image: url(imagenes/logobts2.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 343px;
+  flex-direction: column;
+  padding: 110px 30px 60px 30px;
+  width: 343px;
+  height: 343px;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.more-shop a div {
+  font-size: 20px;
+  color: gray;
+}
+
+.more-shop a h2 {
+  font-size: 30px;
+  color: black;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 80px 20px 80px;
+  background-color: black;
+  background-size: auto;
+  color: white;
+  text-align: center;
+  font-kerning: none;
+}
+
+.footer-up {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  flex-basis: auto;
+  line-height: 0;
+  size-adjust: 100%;
+}
+
+.footer-up a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-up :hover {
+  color: grey;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.icons a {
+  font-size: 45px;
+  color: grey;
+}
+
+.icons a :hover {
+  color: #fff;
+}
+
+.footer-down h4 {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
